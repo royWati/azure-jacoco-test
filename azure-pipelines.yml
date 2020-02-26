@@ -7,7 +7,7 @@ steps:
       jdkVersionOption: '1.11'
       jdkArchitectureOption: 'x64'
       publishJUnitResults: true
-      testResultsFiles: '**/test-*.xml'
+      testResultsFiles: '**/TEST-*.xml'
       goals: 'clean install'
 
 # checkout from a branch repo
